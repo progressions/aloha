@@ -13,6 +13,6 @@ defmodule Aloha do
 
   """
   def hello do
-    :world
+    Application.get_env(:aloha, :hello).()
   end
 end
