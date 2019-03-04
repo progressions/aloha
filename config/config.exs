@@ -21,7 +21,7 @@ use Mix.Config
 #     config :logger, level: :info
 #
 
-config :aloha, :hello, module: Aloha, function: :hello_world
+config :aloha, :hello, {Aloha, :hello_world, []}
 
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment
