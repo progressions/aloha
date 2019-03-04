@@ -13,6 +13,11 @@ defmodule Aloha do
 
   """
   def hello do
-    Application.get_env(:aloha, :hello).()
+    [module: mod, function: fun] = Application.get_env(:aloha, :hello)
+    apply(mod, fun, [])
+  end
+
+  def hello_world do
+    :world
   end
 end
