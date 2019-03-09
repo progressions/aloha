@@ -1,0 +1,6 @@
+[~/projects/elixir/aloha (function)]> ./_build/dev/rel/aloha/bin/aloha start
+could not start kernel pid (application_controller) (error in config file "/Users/ipriestley/projects/elixir/aloha/_build/dev/rel/aloha/var/sys.config" (4): syntax error before: Fun)
+
+Crash dump is being written to: erl_crash.dump...done
+{"could not start kernel pid",application_controller,"error in config file \"/Users/ipriestley/projects/elixir/aloha/_build/dev/rel/aloha/var/sys.config\" (4): syntax error before: Fun"}
+Unable to configure release!
